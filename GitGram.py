@@ -38,7 +38,7 @@ def start(_bot, update):
     """/start message for bot"""
     message = update.effective_message
     message.reply_text(
-        f"This is the Updates watcher for {PROJECT_NAME}. I am just notify users about what's happen on their Git repositories thru webhooks.\n\nYou need to [self-host](https://waa.ai/GitGram) or see /help to use this bot on your groups.",
+        f"This is the Updates watcher for {PROJECT_NAME}. HI i will update changes in hikigaya",
         parse_mode="markdown")
 
 
@@ -55,7 +55,7 @@ def support(_bot, update):
     """Links to Support"""
     message = update.effective_message
     message.reply_text(
-        f"*Getting Support*\n\nTo get support in using the bot, join [the GitGram support](https://t.me/GitGramChat).",
+        f"*Getting Support*\n\nTo get support in using the bot, join [the GitGram support](https://t.me/hikigayasupport).",
         parse_mode="markdown"
     )
 
